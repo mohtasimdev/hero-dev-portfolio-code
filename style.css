@@ -20,6 +20,7 @@
 }
 .btn{
     background-color: #FD6E0A;
+    
     border-radius: none;
     padding: 18px 35px;
     border-radius: 5px;
@@ -82,10 +83,11 @@ nav .menu a{
 
 }
 #banner{
-    border: 1px solid red;
+    border: 1px solid none;
     margin: 47px 38px 0 230px;
     display: flex;
-    
+    height: 674px;
+    width: auto;
     justify-content: space-between;
     align-items: center;
 }
@@ -120,16 +122,17 @@ nav .menu a{
 }
 #banner .banner-image img{
     max-width: 585px;
+    height: 680px;
 }
-#banner .button-container .btn{
+/* #banner .button-container .btn{
     display: flex;
     gap: 20px;
-}
+} */
 #about, #skills,#resume {
     padding-top: 130px;
 }
 #about .about-container{
-    border: 1px solid red;
+    border: 1px solid none;
     width: 71%;
     max-width: 1140px;
     margin: 0 auto;
@@ -223,6 +226,11 @@ gap: 24px;
    line-height: 28px;
   
     color: #757575;
+}
+#resume .text-center .btn{
+    margin: 50px 689px 65.5px 620px;
+    display: flex;
+    text-align: justify;
 }
 footer{
     margin-top: 130px;
